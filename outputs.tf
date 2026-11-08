@@ -1,6 +1,6 @@
 output "rg_id"{
     description="The ID of the created resource group"
-    value=azurerm_resource_group.rg.ID
+    value=azurerm_resource_group.rg.id
 }
 
 output "rg_name"{
